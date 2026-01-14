@@ -6,9 +6,11 @@ This repository converts the events page to a calendar feed. The feed is updated
 
 ## Usage
 
-Copy the link of your choice and add to your calendar using the instructions:
+Follow the instructions to add the feed to your calendar:
 
 ### iCalendar (.ics)
+
+Copy the link below:
 
 ```
 https://raw.githubusercontent.com/rossta/tgj-calendar-2026/refs/heads/main/feeds/tgj.ics
@@ -37,7 +39,7 @@ By following these steps, you will have a live, updating view of the events.
 
 ### WebCal
 
-Prefer WebCal? Use this URL instead:
+Prefer WebCal? Copy this link instead:
 
 ```
 https://raw.githubusercontent.com/rossta/tgj-calendar-2026/refs/heads/main/feeds/tgj.webcal
