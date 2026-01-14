@@ -19,14 +19,14 @@ https://raw.githubusercontent.com/rossta/tgj-calendar-2026/refs/heads/main/feeds
 ### Google Calendar
 
 - Open Google Calendar in a web browser.
-- In the left sidebar, next to "Other calendars", click the + sign.
+- In the left sidebar, next to "Other calendars", click the **+** sign.
 - Select **From URL** and paste the `.ics` URL you copied.
-- Click **Add calendar**. The events will now appear in their Google Calendar, and it will sync periodically for updates.
+- Click **Add calendar**.
 
 ### Apple Calendar (macOS/iOS):
 
 - On macOS: In the Calendar app, go to **File > New Calendar Subscription**. Paste the `.ics` URL and click **Subscribe**.
-- On iOS: Go to **Settings > Calendar > Accounts > Add Account > Other > Add Subscribed Calendar**. Paste the URL and save.
+- On iOS: Go to **Settings > Calendar > Accounts > Add Account > Other > Add Subscribed Calendar**. Paste the `.ics` URL and save.
 
 ### Microsoft Outlook:
 
