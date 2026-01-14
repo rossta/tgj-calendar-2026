@@ -10,11 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Ruby ${{ matrix.ruby }}
-    strategy:
-      matrix:
-        ruby:
-          - '3.4.7'
+    name: Main
 
     steps:
       - uses: actions/checkout@v4
@@ -27,3 +23,14 @@ jobs:
           bundler-cache: true
       - name: Run the default task
         run: bundle exec rake
+
+      - name: Generate calendar feeds
+        run: bin/generate_tgj_calendar
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add feeds/tgj.ics feeds/tgj.webcal
+          git diff --cached --quiet || git commit -m "Auto-update TGJ calendar feeds"
+          git push
