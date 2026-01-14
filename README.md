@@ -1,4 +1,4 @@
-# Golfer’s Journal 2026 Tour Calendar Feed
+# The Golfer’s Journal 2026 Tour Calendar Feed
 
 The Golfer‘s Journal 2026 Tour event calendar is hosted at https://www.golfersjournal.com/tgj-events/.
 
