@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "tgj/calendar/2026"
+require "tgj"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
