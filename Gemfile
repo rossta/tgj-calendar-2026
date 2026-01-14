@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 gem "icalendar"
-gem "nokogiri"
+gem "puppeteer-ruby"
 
 gem "irb"
 gem "rake", "~> 13.0"
